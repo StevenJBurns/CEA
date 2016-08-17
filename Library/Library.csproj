@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\CEA.Green.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,7 +67,6 @@
   <ItemGroup>
     <Content Include="Resources\CEA.Green.ico" />
     <Content Include="Resources\CEA.Red.ico" />
-    <Resource Include="Resources\CEA.Blue.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LibraryDiagram.cd" />

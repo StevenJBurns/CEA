@@ -1,6 +1,8 @@
 using System;
+using System.Drawing;
 using System.Activities;
 using System.Workflow.Activities;
+using CEA.Library.Model;
 
 namespace CEA.Library.Workflow
 {
@@ -19,7 +21,7 @@ namespace CEA.Library.Workflow
 		
 		public MinimumDropzoneSizeWorkflow()
 			{
-			InitializeComponent();
+			//InitializeComponent();
 			}
 		
 		private Int32 AdditionalLengthCDS(Int32 containercount)

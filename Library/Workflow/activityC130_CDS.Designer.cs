@@ -12,7 +12,7 @@ using System.Workflow.Runtime;
 using System.Workflow.Activities;
 using System.Workflow.Activities.Rules;
 
-namespace AirForce.Workflow
+namespace CEA.Library.Workflow
 {
 	public partial class ActivityCDS
 	{

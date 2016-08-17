@@ -25,7 +25,7 @@ namespace AirForce.Workflow
         [System.Diagnostics.DebuggerNonUserCode]
 		private void InitializeComponent()
 		{
-	this.CanModifyActivities = true;
+	//this.CanModifyActivities = true;
 	System.Workflow.Activities.Rules.RuleSetReference rulesetreference1 = new System.Workflow.Activities.Rules.RuleSetReference();
 	System.Workflow.Activities.Rules.RuleSetReference rulesetreference2 = new System.Workflow.Activities.Rules.RuleSetReference();
 	System.Workflow.Activities.Rules.RuleSetReference rulesetreference3 = new System.Workflow.Activities.Rules.RuleSetReference();
@@ -170,11 +170,11 @@ namespace AirForce.Workflow
 	// 
 	// MinimumDropzoneSizeWorkflow
 	// 
-	this.Activities.Add(this.IfElseAircraftPath);
-	this.Activities.Add(this.cancellationHandlerActivity2);
-	this.Activities.Add(this.faultHandlersActivity2);
-	this.Name = "MinimumDropzoneSizeWorkflow";
-	this.CanModifyActivities = false;
+	//this.Activities.Add(this.IfElseAircraftPath);
+	//this.Activities.Add(this.cancellationHandlerActivity2);
+	//this.Activities.Add(this.faultHandlersActivity2);
+	//this.Name = "MinimumDropzoneSizeWorkflow";
+	//this.CanModifyActivities = false;
 
 		}
 

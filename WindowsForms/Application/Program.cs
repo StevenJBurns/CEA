@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using CEA.WindowsForms.UI;
 
-namespace WindowsForms
+namespace CEA.WindowsForms
   {
   static class CEA
     {
@@ -11,7 +12,7 @@ namespace WindowsForms
       {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new Form1());
+      Application.Run(new FormMain());
       }
     }
  }

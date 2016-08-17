@@ -1,0 +1,1201 @@
+﻿<RuleDefinitions xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<RuleDefinitions.Conditions>
+		<RuleExpressionCondition Name="IsAircraftC5">
+			<RuleExpressionCondition.Expression>
+				<ns0:CodeBinaryOperatorExpression Operator="ValueEquality" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					<ns0:CodeBinaryOperatorExpression.Left>
+						<ns0:CodeFieldReferenceExpression FieldName="aircrafttype">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeThisReferenceExpression />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Left>
+					<ns0:CodeBinaryOperatorExpression.Right>
+						<ns0:CodeFieldReferenceExpression FieldName="C5">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeTypeReferenceExpression Type="AirForce.AircraftType, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Right>
+				</ns0:CodeBinaryOperatorExpression>
+			</RuleExpressionCondition.Expression>
+		</RuleExpressionCondition>
+		<RuleExpressionCondition Name="IsAircraftC141">
+			<RuleExpressionCondition.Expression>
+				<ns0:CodeBinaryOperatorExpression Operator="ValueEquality" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					<ns0:CodeBinaryOperatorExpression.Left>
+						<ns0:CodeFieldReferenceExpression FieldName="aircrafttype">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeThisReferenceExpression />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Left>
+					<ns0:CodeBinaryOperatorExpression.Right>
+						<ns0:CodeFieldReferenceExpression FieldName="C141">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeTypeReferenceExpression Type="AirForce.AircraftType, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Right>
+				</ns0:CodeBinaryOperatorExpression>
+			</RuleExpressionCondition.Expression>
+		</RuleExpressionCondition>
+		<RuleExpressionCondition Name="IsAircraftC130">
+			<RuleExpressionCondition.Expression>
+				<ns0:CodeBinaryOperatorExpression Operator="ValueEquality" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					<ns0:CodeBinaryOperatorExpression.Left>
+						<ns0:CodeFieldReferenceExpression FieldName="aircrafttype">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeThisReferenceExpression />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Left>
+					<ns0:CodeBinaryOperatorExpression.Right>
+						<ns0:CodeFieldReferenceExpression FieldName="C130">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeTypeReferenceExpression Type="AirForce.AircraftType, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Right>
+				</ns0:CodeBinaryOperatorExpression>
+			</RuleExpressionCondition.Expression>
+		</RuleExpressionCondition>
+		<RuleExpressionCondition Name="IsAircraftC17">
+			<RuleExpressionCondition.Expression>
+				<ns0:CodeBinaryOperatorExpression Operator="ValueEquality" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					<ns0:CodeBinaryOperatorExpression.Left>
+						<ns0:CodeFieldReferenceExpression FieldName="aircrafttype">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeThisReferenceExpression />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Left>
+					<ns0:CodeBinaryOperatorExpression.Right>
+						<ns0:CodeFieldReferenceExpression FieldName="C17">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeTypeReferenceExpression Type="AirForce.AircraftType, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Right>
+				</ns0:CodeBinaryOperatorExpression>
+			</RuleExpressionCondition.Expression>
+		</RuleExpressionCondition>
+		<RuleExpressionCondition Name="EquipmentType_CDS">
+			<RuleExpressionCondition.Expression>
+				<ns0:CodeBinaryOperatorExpression Operator="ValueEquality" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					<ns0:CodeBinaryOperatorExpression.Left>
+						<ns0:CodeFieldReferenceExpression FieldName="equipmenttype">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeThisReferenceExpression />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Left>
+					<ns0:CodeBinaryOperatorExpression.Right>
+						<ns0:CodeFieldReferenceExpression FieldName="CDS">
+							<ns0:CodeFieldReferenceExpression.TargetObject>
+								<ns0:CodeTypeReferenceExpression Type="AirForce.Airdrop.DropType, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+							</ns0:CodeFieldReferenceExpression.TargetObject>
+						</ns0:CodeFieldReferenceExpression>
+					</ns0:CodeBinaryOperatorExpression.Right>
+				</ns0:CodeBinaryOperatorExpression>
+			</RuleExpressionCondition.Expression>
+		</RuleExpressionCondition>
+	</RuleDefinitions.Conditions>
+	<RuleDefinitions.RuleSets>
+		<RuleSet Name="C130_CDS" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml">
+			<RuleSet.Rules>
+				<Rule Name="DropAltitude" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Height">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">400</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="LessThanOrEqual" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+											<ns0:CodeFieldReferenceExpression.TargetObject>
+												<ns0:CodeThisReferenceExpression />
+											</ns0:CodeFieldReferenceExpression.TargetObject>
+										</ns0:CodeFieldReferenceExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+			</RuleSet.Rules>
+		</RuleSet>
+		<RuleSet Name="C130_HVCDS" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml" />
+		<RuleSet Name="C130_HAARS" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml" />
+		<RuleSet Name="C130_HSLLADS" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml" />
+		<RuleSet Name="C130_HE" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml">
+			<RuleSet.Rules>
+				<Rule Name="Altitude_AdjustLength" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Height">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="Multiply">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="Subtract">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeFieldReferenceExpression FieldName="equipmentcount">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodePrimitiveExpression>
+																	<ns0:CodePrimitiveExpression.Value>
+																		<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1</ns1:Int32>
+																	</ns0:CodePrimitiveExpression.Value>
+																</ns0:CodePrimitiveExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">400</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.ElseActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Height">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeBinaryOperatorExpression Operator="Add">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodeBinaryOperatorExpression Operator="Multiply">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeBinaryOperatorExpression Operator="Subtract">
+																	<ns0:CodeBinaryOperatorExpression.Left>
+																		<ns0:CodeFieldReferenceExpression FieldName="equipmentcount">
+																			<ns0:CodeFieldReferenceExpression.TargetObject>
+																				<ns0:CodeThisReferenceExpression />
+																			</ns0:CodeFieldReferenceExpression.TargetObject>
+																		</ns0:CodeFieldReferenceExpression>
+																	</ns0:CodeBinaryOperatorExpression.Left>
+																	<ns0:CodeBinaryOperatorExpression.Right>
+																		<ns0:CodePrimitiveExpression>
+																			<ns0:CodePrimitiveExpression.Value>
+																				<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1</ns1:Int32>
+																			</ns0:CodePrimitiveExpression.Value>
+																		</ns0:CodePrimitiveExpression>
+																	</ns0:CodeBinaryOperatorExpression.Right>
+																</ns0:CodeBinaryOperatorExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodePrimitiveExpression>
+																	<ns0:CodePrimitiveExpression.Value>
+																		<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">400</ns1:Int32>
+																	</ns0:CodePrimitiveExpression.Value>
+																</ns0:CodePrimitiveExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="Multiply">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="Modulus">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeBinaryOperatorExpression Operator="Subtract">
+																	<ns0:CodeBinaryOperatorExpression.Left>
+																		<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+																			<ns0:CodeFieldReferenceExpression.TargetObject>
+																				<ns0:CodeThisReferenceExpression />
+																			</ns0:CodeFieldReferenceExpression.TargetObject>
+																		</ns0:CodeFieldReferenceExpression>
+																	</ns0:CodeBinaryOperatorExpression.Left>
+																	<ns0:CodeBinaryOperatorExpression.Right>
+																		<ns0:CodePrimitiveExpression>
+																			<ns0:CodePrimitiveExpression.Value>
+																				<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1100</ns1:Int32>
+																			</ns0:CodePrimitiveExpression.Value>
+																		</ns0:CodePrimitiveExpression>
+																	</ns0:CodeBinaryOperatorExpression.Right>
+																</ns0:CodeBinaryOperatorExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodePrimitiveExpression>
+																	<ns0:CodePrimitiveExpression.Value>
+																		<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">100</ns1:Int32>
+																	</ns0:CodePrimitiveExpression.Value>
+																</ns0:CodePrimitiveExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">30</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ElseActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="LessThanOrEqual" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+											<ns0:CodeFieldReferenceExpression.TargetObject>
+												<ns0:CodeThisReferenceExpression />
+											</ns0:CodeFieldReferenceExpression.TargetObject>
+										</ns0:CodeFieldReferenceExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1100</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+				<Rule Name="Altitude_AdjustWidth" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.ElseActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="Multiply">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="Modulus">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeBinaryOperatorExpression Operator="Subtract">
+																	<ns0:CodeBinaryOperatorExpression.Left>
+																		<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+																			<ns0:CodeFieldReferenceExpression.TargetObject>
+																				<ns0:CodeThisReferenceExpression />
+																			</ns0:CodeFieldReferenceExpression.TargetObject>
+																		</ns0:CodeFieldReferenceExpression>
+																	</ns0:CodeBinaryOperatorExpression.Left>
+																	<ns0:CodeBinaryOperatorExpression.Right>
+																		<ns0:CodePrimitiveExpression>
+																			<ns0:CodePrimitiveExpression.Value>
+																				<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1100</ns1:Int32>
+																			</ns0:CodePrimitiveExpression.Value>
+																		</ns0:CodePrimitiveExpression>
+																	</ns0:CodeBinaryOperatorExpression.Right>
+																</ns0:CodeBinaryOperatorExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodePrimitiveExpression>
+																	<ns0:CodePrimitiveExpression.Value>
+																		<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">100</ns1:Int32>
+																	</ns0:CodePrimitiveExpression.Value>
+																</ns0:CodePrimitiveExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">30</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ElseActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="LessThanOrEqual" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+											<ns0:CodeFieldReferenceExpression.TargetObject>
+												<ns0:CodeThisReferenceExpression />
+											</ns0:CodeFieldReferenceExpression.TargetObject>
+										</ns0:CodeFieldReferenceExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1100</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+			</RuleSet.Rules>
+		</RuleSet>
+		<RuleSet Name="NOTE1" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml">
+			<RuleSet.Rules>
+				<Rule Name="Visual_Day_Formation_AdjustWidth" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePropertyReferenceExpression PropertyName="Width">
+													<ns0:CodePropertyReferenceExpression.TargetObject>
+														<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodePropertyReferenceExpression.TargetObject>
+												</ns0:CodePropertyReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">100</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="BooleanAnd" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeFieldReferenceExpression FieldName="tod">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeFieldReferenceExpression FieldName="Day">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeTypeReferenceExpression Type="AirForce.DayNight, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="GreaterThan">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeFieldReferenceExpression FieldName="aircraftcount">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+				<Rule Name="AWADS_AdjustWidth" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePropertyReferenceExpression PropertyName="Width">
+													<ns0:CodePropertyReferenceExpression.TargetObject>
+														<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodePropertyReferenceExpression.TargetObject>
+												</ns0:CodePropertyReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">400</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="BooleanAnd" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeFieldReferenceExpression FieldName="dropmethod">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeFieldReferenceExpression FieldName="AWADS">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeTypeReferenceExpression Type="AirForce.Airdrop.DropMethod, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="GreaterThan">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeFieldReferenceExpression FieldName="aircraftcount">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+				<Rule Name="Visual_Night_SingleShip_AdjustWidth" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePropertyReferenceExpression PropertyName="Width">
+													<ns0:CodePropertyReferenceExpression.TargetObject>
+														<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodePropertyReferenceExpression.TargetObject>
+												</ns0:CodePropertyReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">100</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="BooleanAnd" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeBinaryOperatorExpression Operator="BooleanAnd">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeFieldReferenceExpression FieldName="aircraftcount">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="BooleanOr">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeFieldReferenceExpression FieldName="tod">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodeFieldReferenceExpression FieldName="Night">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeTypeReferenceExpression Type="AirForce.DayNight, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeFieldReferenceExpression FieldName="tod">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodeFieldReferenceExpression FieldName="NightNVG">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeTypeReferenceExpression Type="AirForce.DayNight, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeFieldReferenceExpression FieldName="dropmethod">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeFieldReferenceExpression FieldName="Visual">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeTypeReferenceExpression Type="AirForce.Airdrop.DropMethod, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+				<Rule Name="Visual_Night_Formation_AdjustWidth" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePropertyReferenceExpression PropertyName="Width">
+													<ns0:CodePropertyReferenceExpression.TargetObject>
+														<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodePropertyReferenceExpression.TargetObject>
+												</ns0:CodePropertyReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">200</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="BooleanAnd" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeBinaryOperatorExpression Operator="BooleanAnd">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeBinaryOperatorExpression Operator="GreaterThan">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeFieldReferenceExpression FieldName="aircraftcount">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="BooleanOr">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeFieldReferenceExpression FieldName="tod">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodeFieldReferenceExpression FieldName="Night">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeTypeReferenceExpression Type="AirForce.DayNight, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeFieldReferenceExpression FieldName="tod">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodeFieldReferenceExpression FieldName="NightNVG">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeTypeReferenceExpression Type="AirForce.DayNight, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="ValueEquality">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeFieldReferenceExpression FieldName="dropmethod">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeFieldReferenceExpression FieldName="Visual">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeTypeReferenceExpression Type="AirForce.Airdrop.DropMethod, AirForce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+			</RuleSet.Rules>
+		</RuleSet>
+		<RuleSet Name="C130_Personnel" ChainingBehavior="Full" Description="{p3:Null}" xmlns:p3="http://schemas.microsoft.com/winfx/2006/xaml">
+			<RuleSet.Rules>
+				<Rule Name="Altitude_AdjustWidth" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.ElseActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Width">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="Multiply">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="Modulus">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeBinaryOperatorExpression Operator="Subtract">
+																	<ns0:CodeBinaryOperatorExpression.Left>
+																		<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+																			<ns0:CodeFieldReferenceExpression.TargetObject>
+																				<ns0:CodeThisReferenceExpression />
+																			</ns0:CodeFieldReferenceExpression.TargetObject>
+																		</ns0:CodeFieldReferenceExpression>
+																	</ns0:CodeBinaryOperatorExpression.Left>
+																	<ns0:CodeBinaryOperatorExpression.Right>
+																		<ns0:CodePrimitiveExpression>
+																			<ns0:CodePrimitiveExpression.Value>
+																				<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</ns1:Int32>
+																			</ns0:CodePrimitiveExpression.Value>
+																		</ns0:CodePrimitiveExpression>
+																	</ns0:CodeBinaryOperatorExpression.Right>
+																</ns0:CodeBinaryOperatorExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodePrimitiveExpression>
+																	<ns0:CodePrimitiveExpression.Value>
+																		<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">100</ns1:Int32>
+																	</ns0:CodePrimitiveExpression.Value>
+																</ns0:CodePrimitiveExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">30</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ElseActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="LessThanOrEqual" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+											<ns0:CodeFieldReferenceExpression.TargetObject>
+												<ns0:CodeThisReferenceExpression />
+											</ns0:CodeFieldReferenceExpression.TargetObject>
+										</ns0:CodeFieldReferenceExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+				<Rule Name="Altitude_AdjustLength" ReevaluationBehavior="Always" Priority="10" Description="{p3:Null}" Active="True">
+					<Rule.ThenActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Height">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodePrimitiveExpression>
+													<ns0:CodePrimitiveExpression.Value>
+														<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+													</ns0:CodePrimitiveExpression.Value>
+												</ns0:CodePrimitiveExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeMethodInvokeExpression>
+													<ns0:CodeMethodInvokeExpression.Parameters>
+														<ns0:CodeFieldReferenceExpression FieldName="equipmentcount">
+															<ns0:CodeFieldReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeFieldReferenceExpression.TargetObject>
+														</ns0:CodeFieldReferenceExpression>
+													</ns0:CodeMethodInvokeExpression.Parameters>
+													<ns0:CodeMethodInvokeExpression.Method>
+														<ns0:CodeMethodReferenceExpression MethodName="AdditionalLengthPersonnel">
+															<ns0:CodeMethodReferenceExpression.TargetObject>
+																<ns0:CodeThisReferenceExpression />
+															</ns0:CodeMethodReferenceExpression.TargetObject>
+														</ns0:CodeMethodReferenceExpression>
+													</ns0:CodeMethodInvokeExpression.Method>
+												</ns0:CodeMethodInvokeExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ThenActions>
+					<Rule.ElseActions>
+						<RuleStatementAction>
+							<RuleStatementAction.CodeDomStatement>
+								<ns0:CodeAssignStatement LinePragma="{p3:Null}" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeAssignStatement.Left>
+										<ns0:CodePropertyReferenceExpression PropertyName="Height">
+											<ns0:CodePropertyReferenceExpression.TargetObject>
+												<ns0:CodeFieldReferenceExpression FieldName="dz_size">
+													<ns0:CodeFieldReferenceExpression.TargetObject>
+														<ns0:CodeThisReferenceExpression />
+													</ns0:CodeFieldReferenceExpression.TargetObject>
+												</ns0:CodeFieldReferenceExpression>
+											</ns0:CodePropertyReferenceExpression.TargetObject>
+										</ns0:CodePropertyReferenceExpression>
+									</ns0:CodeAssignStatement.Left>
+									<ns0:CodeAssignStatement.Right>
+										<ns0:CodeBinaryOperatorExpression Operator="Add">
+											<ns0:CodeBinaryOperatorExpression.Left>
+												<ns0:CodeBinaryOperatorExpression Operator="Add">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">600</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodeMethodInvokeExpression>
+															<ns0:CodeMethodInvokeExpression.Parameters>
+																<ns0:CodeFieldReferenceExpression FieldName="equipmentcount">
+																	<ns0:CodeFieldReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeFieldReferenceExpression.TargetObject>
+																</ns0:CodeFieldReferenceExpression>
+															</ns0:CodeMethodInvokeExpression.Parameters>
+															<ns0:CodeMethodInvokeExpression.Method>
+																<ns0:CodeMethodReferenceExpression MethodName="AdditionalLengthPersonnel">
+																	<ns0:CodeMethodReferenceExpression.TargetObject>
+																		<ns0:CodeThisReferenceExpression />
+																	</ns0:CodeMethodReferenceExpression.TargetObject>
+																</ns0:CodeMethodReferenceExpression>
+															</ns0:CodeMethodInvokeExpression.Method>
+														</ns0:CodeMethodInvokeExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Left>
+											<ns0:CodeBinaryOperatorExpression.Right>
+												<ns0:CodeBinaryOperatorExpression Operator="Multiply">
+													<ns0:CodeBinaryOperatorExpression.Left>
+														<ns0:CodeBinaryOperatorExpression Operator="Modulus">
+															<ns0:CodeBinaryOperatorExpression.Left>
+																<ns0:CodeBinaryOperatorExpression Operator="Subtract">
+																	<ns0:CodeBinaryOperatorExpression.Left>
+																		<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+																			<ns0:CodeFieldReferenceExpression.TargetObject>
+																				<ns0:CodeThisReferenceExpression />
+																			</ns0:CodeFieldReferenceExpression.TargetObject>
+																		</ns0:CodeFieldReferenceExpression>
+																	</ns0:CodeBinaryOperatorExpression.Left>
+																	<ns0:CodeBinaryOperatorExpression.Right>
+																		<ns0:CodePrimitiveExpression>
+																			<ns0:CodePrimitiveExpression.Value>
+																				<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</ns1:Int32>
+																			</ns0:CodePrimitiveExpression.Value>
+																		</ns0:CodePrimitiveExpression>
+																	</ns0:CodeBinaryOperatorExpression.Right>
+																</ns0:CodeBinaryOperatorExpression>
+															</ns0:CodeBinaryOperatorExpression.Left>
+															<ns0:CodeBinaryOperatorExpression.Right>
+																<ns0:CodePrimitiveExpression>
+																	<ns0:CodePrimitiveExpression.Value>
+																		<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">100</ns1:Int32>
+																	</ns0:CodePrimitiveExpression.Value>
+																</ns0:CodePrimitiveExpression>
+															</ns0:CodeBinaryOperatorExpression.Right>
+														</ns0:CodeBinaryOperatorExpression>
+													</ns0:CodeBinaryOperatorExpression.Left>
+													<ns0:CodeBinaryOperatorExpression.Right>
+														<ns0:CodePrimitiveExpression>
+															<ns0:CodePrimitiveExpression.Value>
+																<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">30</ns1:Int32>
+															</ns0:CodePrimitiveExpression.Value>
+														</ns0:CodePrimitiveExpression>
+													</ns0:CodeBinaryOperatorExpression.Right>
+												</ns0:CodeBinaryOperatorExpression>
+											</ns0:CodeBinaryOperatorExpression.Right>
+										</ns0:CodeBinaryOperatorExpression>
+									</ns0:CodeAssignStatement.Right>
+								</ns0:CodeAssignStatement>
+							</RuleStatementAction.CodeDomStatement>
+						</RuleStatementAction>
+					</Rule.ElseActions>
+					<Rule.Condition>
+						<RuleExpressionCondition Name="{p3:Null}">
+							<RuleExpressionCondition.Expression>
+								<ns0:CodeBinaryOperatorExpression Operator="LessThanOrEqual" xmlns:ns0="clr-namespace:System.CodeDom;Assembly=System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+									<ns0:CodeBinaryOperatorExpression.Left>
+										<ns0:CodeFieldReferenceExpression FieldName="dropaltitude">
+											<ns0:CodeFieldReferenceExpression.TargetObject>
+												<ns0:CodeThisReferenceExpression />
+											</ns0:CodeFieldReferenceExpression.TargetObject>
+										</ns0:CodeFieldReferenceExpression>
+									</ns0:CodeBinaryOperatorExpression.Left>
+									<ns0:CodeBinaryOperatorExpression.Right>
+										<ns0:CodePrimitiveExpression>
+											<ns0:CodePrimitiveExpression.Value>
+												<ns1:Int32 xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</ns1:Int32>
+											</ns0:CodePrimitiveExpression.Value>
+										</ns0:CodePrimitiveExpression>
+									</ns0:CodeBinaryOperatorExpression.Right>
+								</ns0:CodeBinaryOperatorExpression>
+							</RuleExpressionCondition.Expression>
+						</RuleExpressionCondition>
+					</Rule.Condition>
+				</Rule>
+			</RuleSet.Rules>
+		</RuleSet>
+	</RuleDefinitions.RuleSets>
+</RuleDefinitions>

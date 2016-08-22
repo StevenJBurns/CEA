@@ -7,15 +7,9 @@ using System.Text;
 
 namespace AirForce
 	{
-	
-	public interface IOfficer
-		{
-		OfficerGrades Grade { get; set; }
-		}
-
 	public interface IEnlisted
 		{
-		EnlistedGrades Grade { get; set; }
+		
 		}
 
 	public abstract class Crewmember
@@ -99,7 +93,7 @@ namespace AirForce
 		}
 
 
-	public class Navigator : Crewmember, IOfficer
+	public class Navigator : Crewmember
 		{
 		public const CrewPosition crewposition = CrewPosition.Navigator;
 		private OfficerGrades grade;
@@ -112,7 +106,7 @@ namespace AirForce
 
 		}
 
-	public class Pilot : Crewmember, IOfficer
+	public class Pilot : Crewmember
 		{
 		public const CrewPosition crewposition = CrewPosition.Pilot;
 		private OfficerGrades grade;

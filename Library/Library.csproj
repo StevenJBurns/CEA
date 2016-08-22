@@ -50,7 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Class.Crewmember.cs" />
+    <Compile Include="Model\Class.Dropzone.cs" />
     <Compile Include="Model\Class1.cs" />
+    <Compile Include="Model\Crewmember.cs" />
+    <Compile Include="Model\Enums.cs" />
+    <Compile Include="Model\IEnlisted.cs" />
+    <Compile Include="Model\IOfficer.cs" />
+    <Compile Include="Model\Navigator.cs" />
+    <Compile Include="Model\Pilot.cs" />
     <Compile Include="Model\structDropMethod.cs" />
     <Compile Include="Model\structAircraftType.cs" />
     <Compile Include="Model\structDropType.cs" />

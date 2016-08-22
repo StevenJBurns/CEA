@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CEA.Library.Model
+namespace SJB.CEA.Library.Model
   {
   [Flags]
   public enum AircraftType

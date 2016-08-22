@@ -1,19 +1,7 @@
 using System;
-using System.Text;
-using System.Collections.Generic;
 
 namespace AirForce
 	{
-	[Flags]
-	public enum AircraftType
-		{
-		Unknown = 0,
-		C130	= 1,
-		C17		= 2,
-		C5		= 3,
-		C141	= 4,
-		}
-	
 	public enum CrewPosition
 		{
 		Unknown			= 0,

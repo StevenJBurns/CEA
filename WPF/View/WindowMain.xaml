@@ -3,9 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF"
-        mc:Ignorable="d"
-        MinHeight="150" Height="600"
-        Width="800" MinWidth="200">
+        xmlns:local="clr-namespace:WPF" mc:Ignorable="d"
+        MinHeight="150" Height="600" Width="800" MinWidth="200"        
+        Icon="/CEA.WPF;component/Resources/Icons/CEA.Blue.ico"
+        WindowStartupLocation="CenterScreen">
     <Grid />
 </Window>

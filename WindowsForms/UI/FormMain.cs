@@ -10,14 +10,13 @@ namespace CEA.WindowsForms.UI
       InitializeComponent();
       }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
+    private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+      {
+      }
 
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-          {
-          Application.Exit();
-          }
+    private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+      {
+      Application.Exit();
+      }
     }
   }

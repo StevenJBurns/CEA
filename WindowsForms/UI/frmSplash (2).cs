@@ -19,13 +19,10 @@ namespace CEA
       }
 
     private void timer2_Tick (object sender, EventArgs e)
-			{
-			this.Opacity -= 0.025;
+      {
+      this.Opacity -= 0.025;
 
-			if (this.Opacity == 0)
-        {
-        this.Dispose();
-        }
+      if (this.Opacity == 0) this.Dispose();
       }
     }
   }

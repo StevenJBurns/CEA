@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Windows;
 
-namespace WPF
-  {
+namespace CEA.Application
+{
   /// <summary>Interaction logic for App.xaml</summary>
-  public partial class App : Application
-    {
-    }
-  }
+  public partial class App : Application {}
+}

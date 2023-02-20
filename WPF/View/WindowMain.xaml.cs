@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace CEA.WPF.View
+namespace CEA.View
   {
   /// <summary>Interaction logic for MainWindow.xaml</summary>
   public partial class WindowMain : Window

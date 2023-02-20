@@ -1,14 +1,17 @@
 ﻿using System;
 
-namespace SJB.CEA.Application
-  {
+namespace CEA.Application
+{
   class ApplicationEntry
-    {
+  {
     [STAThread]
     static void Main()
-      {
+    {
       ApplicationCEA app;
-      app = new ApplicationCEA();   
-      }    
+      ApplicationSingleInstance app = new ApplicationSingleInstance();
+
+      app = new ApplicationCEA();
+      app.Run(args);
     }
   }
+}

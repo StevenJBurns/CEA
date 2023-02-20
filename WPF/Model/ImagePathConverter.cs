@@ -3,7 +3,7 @@ using System.Windows.Data;
 using System.Windows.Media.Imaging;
 using System.Globalization;
 
-namespace Ara.MeritViewer
+namespace CEA.Application
   {
   public class ImagePathConverter : IValueConverter
     {

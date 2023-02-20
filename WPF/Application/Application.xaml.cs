@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace Ara.MeritViewer
+namespace CEA.Application
   {
   public partial class Application : System.Windows.Application
     {

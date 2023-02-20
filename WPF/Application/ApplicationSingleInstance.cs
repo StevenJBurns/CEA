@@ -2,8 +2,9 @@
 using System.Windows;
 using System.Reflection;
 using Microsoft.VisualBasic.ApplicationServices;
+using CEA.View
 
-namespace Ara.MeritViewer
+namespace CEA.Application
   {
   class ApplicationSingleInstance : WindowsFormsApplicationBase
     {
@@ -16,7 +17,7 @@ namespace Ara.MeritViewer
       {
       app = new Application();
 
-      Ara.MeritViewer.View.WindowMain appwinmain = new Ara.MeritViewer.View.WindowMain();
+      CEA.View.WindowMain appwinmain = new Ara.MeritViewer.View.WindowMain();
 
       appwinmain.Title = "MeritViewer v" + Assembly.GetExecutingAssembly().GetName().Version.ToString();
       //appwinmain.DataContext = Ara.MeritViewer.Data.ApplicationDataLayer.DataXML;

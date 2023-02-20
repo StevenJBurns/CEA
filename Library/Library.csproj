@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CEA.Library</RootNamespace>
     <AssemblyName>CEA.Library</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -50,19 +50,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Class.Crewmember.cs" />
-    <Compile Include="Model\Class.Dropzone.cs" />
-    <Compile Include="Model\Class1.cs" />
-    <Compile Include="Model\Crewmember.cs" />
-    <Compile Include="Model\Enums.cs" />
-    <Compile Include="Model\IEnlisted.cs" />
-    <Compile Include="Model\IOfficer.cs" />
-    <Compile Include="Model\Navigator.cs" />
-    <Compile Include="Model\Pilot.cs" />
-    <Compile Include="Model\structDropMethod.cs" />
-    <Compile Include="Model\structAircraftType.cs" />
-    <Compile Include="Model\structDropType.cs" />
-    <Compile Include="Model\structTimeOfDay.cs" />
+    <Compile Include="Domain\Class.Crewmember.cs" />
+    <Compile Include="Domain\Class.Dropzone.cs" />
+    <Compile Include="Domain\Class1.cs" />
+    <Compile Include="Domain\Crewmember.cs" />
+    <Compile Include="Domain\Enums.cs" />
+    <Compile Include="Domain\IEnlisted.cs" />
+    <Compile Include="Domain\IOfficer.cs" />
+    <Compile Include="Domain\Navigator.cs" />
+    <Compile Include="Domain\Pilot.cs" />
+    <Compile Include="Domain\structDropMethod.cs" />
+    <Compile Include="Domain\structAircraftType.cs" />
+    <Compile Include="Domain\structDropType.cs" />
+    <Compile Include="Domain\structTimeOfDay.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Workflow\activityC130_CDS.cs">
       <SubType>Component</SubType>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SJB.CEA.Library.Model
+namespace CEA.Domain
   {
     public interface IEnlisted
     {

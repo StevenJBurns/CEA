@@ -1,18 +1,18 @@
 using System;
 
-namespace AirForce
-	{
+namespace CEA.Domain
+{
 	public enum CrewPosition
-		{
-		Unknown			= 0,
-		Pilot			= 1,
-		Navigator		= 2,
+	{
+		Unknown					= 0,
+		Pilot						= 1,
+		Navigator				= 2,
 		FlightEngineer	= 3,
-		Loadmaster		= 4
-		}
+		Loadmaster			= 4
+	}
 	
 	public enum OfficerGrades
-		{
+	{
 		Unknown = 0,
 		O1,
 		O2,
@@ -20,10 +20,10 @@ namespace AirForce
 		O4,
 		O5,
 		O6
-		}
+	}
 	
 	public enum EnlistedGrades
-		{
+	{
 		Unknown = 0,
 		E1,
 		E2,
@@ -34,7 +34,7 @@ namespace AirForce
 		E7,
 		E8,
 		E9
-		}
+	}
 	
 	public enum DayNight
 		{
@@ -128,8 +128,8 @@ namespace AirForce.Airdrop
 		}
 
 	public enum NoDropCode
-		{
+	{
 
-		}
-	
 	}
+	
+}

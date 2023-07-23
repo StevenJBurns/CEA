@@ -1,7 +1,5 @@
-﻿using System;
-using System.Windows;
+﻿namespace CEA.WPF.Application;
 
-namespace CEA.Application
-{
-  public class ApplicationCEA : Application {}
-}
+public class ApplicationCEA : System.Windows.Application
+  {
+  }

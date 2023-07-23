@@ -1,37 +1,26 @@
 ﻿using System;
 using System.Windows;
 using System.Reflection;
-using Microsoft.VisualBasic.ApplicationServices;
-using CEA.View
+using CEA.WPF.Window;
+using CEA.Application;
 
-namespace CEA.Application
+namespace CEA.WPF;
+
+class ApplicationSingleInstance : System.Windows.Application
   {
-  class ApplicationSingleInstance : WindowsFormsApplicationBase
+  public ApplicationSingleInstance()
     {
-    private Application app;
-
-    public ApplicationSingleInstance()
-      { this.IsSingleInstance = true; }
-
-    protected override bool OnStartup(Microsoft.VisualBasic.ApplicationServices.StartupEventArgs eventArgs)
-      {
-      app = new Application();
-
-      CEA.View.WindowMain appwinmain = new Ara.MeritViewer.View.WindowMain();
-
-      appwinmain.Title = "MeritViewer v" + Assembly.GetExecutingAssembly().GetName().Version.ToString();
-      //appwinmain.DataContext = Ara.MeritViewer.Data.ApplicationDataLayer.DataXML;
-
-      app.Run(appwinmain);
-      return false;
-      }
-
-    protected override void OnStartupNextInstance(StartupNextInstanceEventArgs e)
-      {
-      app.MainWindow.Activate();
-
-      if (app.MainWindow.WindowState == WindowState.Minimized)
-        app.MainWindow.WindowState = WindowState.Normal;
-      }
     }
+
+  protected override void OnStartup(StartupEventArgs eventArgs)
+    {
+    }
+
+/*  protected override void OnStartupNextInstance(StartupEventArgs e)
+    {
+    app.MainWindow.Activate();
+
+    if (app.MainWindow.WindowState == WindowState.Minimized)
+      app.MainWindow.WindowState = WindowState.Normal;
+    }*/
   }

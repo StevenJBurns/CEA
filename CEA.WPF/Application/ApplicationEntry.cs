@@ -1,17 +1,24 @@
 ﻿using System;
+using System.Reflection;
+using CEA.WPF.Window;
 
-namespace CEA.Application
-{
-  class ApplicationEntry
+namespace CEA.WPF;
+
+static class ApplicationEntry
   {
-    [STAThread]
-    static void Main()
-    {
-      ApplicationCEA app;
-      ApplicationSingleInstance app = new ApplicationSingleInstance();
+  static private ApplicationSingleInstance app;
+  static private WindowMain mainWindow;
 
-      app = new ApplicationCEA();
-      app.Run(args);
+  [STAThread]
+  static void Main()
+    {
+    app = new ApplicationSingleInstance();
+    mainWindow = new WindowMain
+      {
+      Title = "CEA v" + Assembly.GetExecutingAssembly().GetName().Version.ToString()
+      // DataContext = CEA.WPF.Data.ApplicationDataLayer.DataXML;
+      };
+    
+    app.Run(mainWindow);
     }
   }
-}

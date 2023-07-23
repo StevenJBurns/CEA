@@ -1,13 +1,9 @@
-﻿using System;
+﻿namespace CEA.Model;
 
-namespace CEA.Model
-{
-  public enum CrewmemberType
+public enum CrewmemberType
   {
-    Pilot = 1,
-    Navigator,
-    FlightEngineer,
-    Loadmaster
-   }
-}
-o
+  Pilot = 1,
+  Navigator,
+  FlightEngineer,
+  Loadmaster
+  }

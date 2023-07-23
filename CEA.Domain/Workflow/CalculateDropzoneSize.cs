@@ -1,7 +1,7 @@
 using System.Drawing;
 using CEA.Library.Model;
 using CEA.Domain.Aircraft;
-using CEA.Domain.Mission.Enum;
+using CEA.Domain.Mission;
 
 namespace CEA.Domain.Workflow
 {

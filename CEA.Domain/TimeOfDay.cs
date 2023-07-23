@@ -1,6 +1,6 @@
-﻿namespace CEA.Library.Model;
+﻿namespace CEA.Domain.Mission;
 
-public enum DayNight
+public enum TimeOfDay
   {
   Unknown = 0,
   Day = 1,

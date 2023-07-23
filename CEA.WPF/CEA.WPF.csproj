@@ -61,24 +61,7 @@
     <Folder Include="Window\SettingsWindow\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="Command\RelayCommand.cs" />
-    <Compile Remove="Controls\CarouselControl.cs" />
-    <Compile Remove="Controls\CenteredLoopPanel.cs" />
-    <Compile Remove="Controls\CodeFile1.cs" />
-    <Compile Remove="Controls\LoopingPanel.cs" />
     <Compile Remove="Data\ApplicationDataLayer.cs" />
-    <Compile Remove="Model\classCrewmember.cs" />
-    <Compile Remove="Model\classDropzone.cs" />
-    <Compile Remove="Model\classMission.cs" />
-    <Compile Remove="Model\classNavigator.cs" />
-    <Compile Remove="Model\classPilot.cs" />
-    <Compile Remove="Model\EmpireColorConverter.cs" />
-    <Compile Remove="Model\EmpireEnum.cs" />
-    <Compile Remove="Model\enumCrewPosition.cs" />
-    <Compile Remove="Model\ImagePathConverter.cs" />
-    <Compile Remove="Model\structDrift.cs" />
-    <Compile Remove="Model\structDropscore.cs" />
-    <Compile Remove="Model\structTOT.cs" />
     <Page Remove="Application\App.xaml" />
   </ItemGroup>
   <ItemGroup>

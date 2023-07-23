@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CEA.UWP (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CEA.UWP (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿namespace CEA.Library.Model;
+namespace CEA.Domain.Mission;
 
 public enum DayNight
   {
@@ -6,4 +6,4 @@ public enum DayNight
   Day = 1,
   Night = 2,
   NightNVG = 3
-  }
+ }

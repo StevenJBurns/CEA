@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CEA.Domain
+﻿namespace CEA.Domain.Crewmember
   {
   public interface IOfficer
     {

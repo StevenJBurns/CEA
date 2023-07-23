@@ -1,36 +1,8 @@
-using System;
-using System.Windows;
-using System.Collections.Generic;
-using System.Text;
-
 using AirForce.Airdrop;
 
-namespace AirForce
-	{
-
-	public interface IRectangularDZ
-		{
-		int Length { get; set;}
-		int Width { get; set;}
-		}
-
-	public interface ICircularDZ
-		{
-		int Radius { get; set;}
-		}
-
-	public interface IAreaDZ
-		{
-		Point PointA { get; set;}
-		Point PointB { get; set;}
-		}
-
-	public interface IWaterDZ
-		{
-		Boolean IsWater { get; set;}
-		}
-
-	public abstract class Dropzone
+namespace CEA.Domain.Dropzone
+{
+    public abstract class Dropzone
 		{
 		private String dz_id;
 		private String dz_name;
@@ -83,7 +55,5 @@ namespace AirForce
 			this.dz_common = common;
 			this.dz_activerecord = true;
 			}
-
 		}
-
 	}
